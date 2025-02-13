@@ -86,3 +86,27 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.cards{
+    width: 91%;
+    height:10%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.card{
+    width: 22%;
+    height: 5%;
+    text-align: center;
+}
+.card, img{
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 1s;
+}
+.card, img:hover{
+    transform: scale(1.1);
+}
+.card-text{
+    font: 0.72rem Verdana;
+    color: #777676;
+    list-style: 50px;
+}
