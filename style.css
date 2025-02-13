@@ -45,6 +45,13 @@
         text-align: center;
     }
 }
+@media (max-width:705px) {
+    .bg-blue{
+        width: 70%;
+        
+        text-align: center;
+    }
+}
 .bg-blue span{
     color: #fff;
     font-weight: 600;
