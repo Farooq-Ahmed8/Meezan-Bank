@@ -20,11 +20,11 @@
     height: 6%;
 }
 .nav-link:hover{
-    background-color: #ffd900;
+    background-color: #ffc107;
 }
 .bg-blue{
     cursor: pointer;
-    color:  #ffd900;
+    color:  #ffc107;
     font-weight: bold;
 }
 @media (max-width:1325px) {
