@@ -76,7 +76,7 @@ marquee{
     height: 0.5%;
     align-content: center;
     font: bold 0.9rem sans-serif;
-    color: #8a2be2;
+    color: #5a01ad;
     background-color: #e7e5e5;
 }
 header{
@@ -117,8 +117,33 @@ header{
     text-align: center;
     margin-top: 5%;
     padding-top:3%;
-    background-color: #8a2be2;
+    background-color: #760199;
 }
-.h3{
-    font: bold 3.5rem sans-serif;
+.icns{
+    width: 93%;
+    height: 80%;
+    margin:0 auto;
+    margin-top: 3%;
+    border: 1px solid #fff;
+}
+.branch{
+    width: 17%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.bran{
+    width: 90%;
+    height: 45%;
+    color: #fff;
+    margin:0 auto;
+    font: 5rem poppin;
+    border-radius: 100%;
+    align-content: center;
+    cursor: pointer;
+    transition: all 1s;
+    background-color:  #9302be;
+}
+.bran:hover{
+    background-color: #ffc107;
 }
