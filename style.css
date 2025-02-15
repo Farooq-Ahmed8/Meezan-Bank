@@ -48,7 +48,6 @@
 @media (max-width:705px) {
     .bg-blue{
         width: 70%;
-        
         text-align: center;
     }
 }
@@ -59,15 +58,15 @@
 form{
     width: 30%;
 }
-@media (max-width:1310px) {
-    form{
+@media (max-width:1000px) {
+    .bg-blue{
         width: 30%;
         text-align: center;
     }
 }
-@media (max-width:992px) {
+@media (max-width:782px) {
     .bg-blue{
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 }
@@ -79,72 +78,107 @@ marquee{
     color: #5a01ad;
     background-color: #e7e5e5;
 }
-header{
+.background {
+    width: autp;
+    height: 100vh;
+    background: url('./iamges/Best\ Bank\ pic-4.jpeg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.detail-card{
     width: 100%;
-    height: 9%;
-    background-image: url(./iamges/FCY-card.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: auto;
+    padding: 30px;
 }
 .cards{
-    width: 91%;
-    height:10%;
-    margin: 0 auto;
-    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
 }
 .card{
-    width: 22%;
-    height: 5%;
-    text-align: center;
-}
-.card, img{
     overflow: hidden;
+}
+.card>img{
     cursor: pointer;
     transition: all 1s;
 }
-.card, img:hover{
+.card>img:hover{
     transform: scale(1.1);
 }
-.card-text{
-    font: 0.72rem Verdana;
-    color: #777676;
-    list-style: 50px;
+.h{
+    margin-top: 8px;
+    color: #760199;
 }
-.way{
+p{
+    font: 0.82rem Verdana;
+    color: #777676;
+    line-height: 20px;
+}
+.detail-icons{
     width: 100%;
-    height: 80vh;
+    height: auto;
+    padding: 30px; 
     color: #fff;
-    text-align: center;
-    margin-top: 5%;
-    padding-top:3%;
+    opacity: 0.8;
     background-color: #760199;
 }
-.icns{
-    width: 93%;
-    height: 80%;
-    margin:0 auto;
-    margin-top: 3%;
-    border: 1px solid #fff;
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+   
 }
-.branch{
-    width: 17%;
-    height: 100%;
-    text-align: center;
-    border: 1px solid #fff;
+@media (max-width:1150px) {
+ .icons{
+    gap: 25%;
+ }   
 }
-.bran{
-    width: 90%;
-    height: 45%;
-    color: #fff;
+.icon{
+    height: 40%;
+}
+.tie{
+    width: 150px ;
+    height: 150px;
     margin:0 auto;
-    font: 5rem poppin;
-    border-radius: 100%;
     align-content: center;
+    font-size: 4rem;
+    border-radius: 80px;
     cursor: pointer;
     transition: all 1s;
-    opacity: 0.7;
     background-color:  #b953d8;
 }
-.bran:hover{
+.tie:hover{
     background-color: #ffc107;
+}
+.i{
+    margin-top: 8px;
+}
+.icon-text{
+    font: 0.82rem Verdana;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+.awards{
+    width: 100%;
+    height: 38vh;
+    color: #760199;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #eceaea;
+}
+.chanel{
+    width: 100%;
+    height: 40%;
+    gap: 200px;
+    word-spacing: 30px;
+}
+.awards>a{
+    color: #760199;
 }
