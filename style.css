@@ -5,7 +5,7 @@
 }
 .containe{
     width: 100%;
-    height: 427vh;
+    height: 430vh;
     border: 1px solid black;
 }
 .navbar{
@@ -17,7 +17,7 @@
     }
 }
 .nav-link{
-    height: 6%;
+    height: 15%;
 }
 .nav-link:hover{
     background-color: #ffc107;
@@ -72,9 +72,9 @@ form{
 }
 marquee{
     width: 100%;
-    height: 0.5%;
+    height: 0.9%;
     align-content: center;
-    font: bold 0.9rem sans-serif;
+    font: 0.9rem sans-serif;
     color: #5a01ad;
     background-color: #e7e5e5;
 }
